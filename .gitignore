@@ -1,0 +1,43 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---------- 模型与数据（仓库里只放"生成它们的脚本"，不放产物） ----------
+*.kmodel
+*.onnx
+*.pt
+*.pth
+*.engine
+dataset/
+datasets/
+coco/
+images/
+labels/
+runs/
+
+# ---------- 标定/日志产物 ----------
+logs/*.csv
+logs/*.log
+logs/*.txt
+model/*.json
+
+# ---------- 编辑器与系统 ----------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 大文件（自瞄录的视频别进仓库） ----------
+*.mp4
+*.avi
+*.zip
+*.7z
+*.rar
